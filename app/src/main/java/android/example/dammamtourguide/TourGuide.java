@@ -10,8 +10,7 @@ public class TourGuide {
     private int mAttractionImage;
 
     // default Constructure for the class
-    public TourGuide(String attractionName, String attractionLocation, int attractionImage)
-    {
+    public TourGuide(String attractionName, String attractionLocation, int attractionImage) {
         mAttractionName = attractionName;
         mAttractionLocation = attractionLocation;
         mAttractionImage = attractionImage;

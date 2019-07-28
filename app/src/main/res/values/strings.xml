@@ -30,4 +30,45 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Cultural Site name and Location -->
+    <string name="kfm_name">King Fahd Mosque</string>
+    <string name="kfm_location">City Center, Dammam</string>
+    <string name="DAM_NAME">Dammam Airport Mosque</string>
+    <string name="DAM_LOCATION">Dammam Airport</string>
+    <string name="KCM_NAME">Khober Cornich Mosque</string>
+    <string name="KCM_LOCATION">Khober Cornich, Al Khober</string>
+    <string name="KFUPM_NAME">KFUPM Mosque</string>
+    <string name="KFUPM_LOCATION">KFUPM Campus, Dhahran</string>
+
+    <!-- Shopping Site name and Location -->
+    <string name="MOD_NAME">Mall of Dhahran</string>
+    <string name="MOD_LOCATION">Doha Al Janubiyah, Az Zahran</string>
+    <string name="AMWAJ_NAME">Amwaj Mall</string>
+    <string name="AMWAJ_LOCATION">Doha Al Janubiyah, Az Zahran</string>
+    <string name="RASHID_NAME">Al Rashid Mall</string>
+    <string name="RASHID_LOCATION">Alshihab Altaifi St, Al Khober</string>
+    <string name="REHMANIYA_NAME">Rehmaniya Mall</string>
+    <string name="REHMANIYA_LOCATION">Dhahran Rd, Al Khober</string>
+
+    <!-- Beach Site name and Location -->
+    <string name="KC_NAME">Khober Cornich</string>
+    <string name="KC_LOCATION">Cornich Road, Al Khober</string>
+    <string name="MI_NAME">Marjan Iland</string>
+    <string name="MI_LOCATION">Cornich Road, Dammam</string>
+    <string name="DC_NAME">Dammam Corniche</string>
+    <string name="DC_LOCATION">Cornich Road, Dammam</string>
+    <string name="HB_NAME">Half Moon Beach</string>
+    <string name="HB_LOCATION">King Fahd Road, Al Khober</string>
+
+    <!-- Food Site name and Location -->
+    <string name="TR_NAME">Taya Restaurant</string>
+    <string name="TR_LOCATION">King AbdulAziz Rd, Al Khober</string>
+    <string name="SR_NAME">Shehzada Restaurant</string>
+    <string name="SR_LOCATION">Al Shamalia, Al Khobar</string>
+    <string name="CC_NAME">Cooper Chandni</string>
+    <string name="CC_LOCATION">Cornich Road, Al Khober</string>
+    <string name="BK_NAME">Bundu Khan</string>
+    <string name="BK_LOCATION">Al Shamalia, Al Khobar</string>
+
 </resources>

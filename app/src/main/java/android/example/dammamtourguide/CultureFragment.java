@@ -29,17 +29,17 @@ public class CultureFragment extends Fragment {
         // Create a list of tour
         ArrayList<TourGuide> tour = new ArrayList<TourGuide>();
 
-        tour.add(new TourGuide("King Fahd Mosque","City Center, Dammam",R.drawable.kfm));
-        tour.add(new TourGuide("Dammam Airport Mosque","Dammam Airport",R.drawable.dam));
-        tour.add(new TourGuide("Khober Cornich Mosque","Cornich Road, Khober",R.drawable.kcm));
-        tour.add(new TourGuide("KFUPM Mosque","KFUPM Campus, Dhahan",R.drawable.kfupmm));
+        tour.add(new TourGuide(getString(R.string.kfm_name),getString(R.string.kfm_location), R.drawable.kfm));
+        tour.add(new TourGuide(getString(R.string.DAM_NAME),getString(R.string.DAM_LOCATION), R.drawable.dam));
+        tour.add(new TourGuide(getString(R.string.KCM_NAME),getString(R.string.KCM_LOCATION), R.drawable.kcm));
+        tour.add(new TourGuide(getString(R.string.KFUPM_NAME),getString(R.string.KFUPM_LOCATION), R.drawable.kfupmm));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the
         // simple_list_item_1.xml layout resource defined in the Android framework.
         // This list item layout contains a single {@link TextView}, which the adapter will set to
         // display a single TourGuide.
-        TourGuideAdapter adapter = new TourGuideAdapter(getActivity(),tour);
+        TourGuideAdapter adapter = new TourGuideAdapter(getActivity(), tour);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
